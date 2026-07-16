@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login | Finders</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Finders</div>
+    <div class="nav-links">
+        <a href="register.html">Register</a>
+    </div>
+</nav>
+
+<section class="form-section">
+    <h2>Login</h2>
+
+<form id="loginForm">
+
+<input type="email" id="loginEmail" placeholder="Email" required>
+
+<div class="password-field">
+    <input type="password" id="loginPassword" placeholder="Password" required>
+    <span class="toggle-password" onclick="togglePassword('loginPassword', this)">👁</span>
+</div>
+
+<button type="submit">Login</button>
+
+<p id="loginMsg"></p>
+
+</form>
+</section>
+
+
+<script src="js/app.js"></script>
+</body>
+</html>

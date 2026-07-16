@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Verify Phone</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>Phone Verification</h2>
+
+<form action="api/send-phone-code.php" method="POST">
+<button>Send Code</button>
+</form>
+
+<form action="api/verify-phone.php" method="POST">
+<input name="code" placeholder="Enter Phone Code" required>
+<button>Verify</button>
+</form>
+
+</body>
+</html>

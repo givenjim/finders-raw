@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Verify Email</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>Email Verification</h2>
+
+<form action="api/send-email-code.php" method="POST">
+<button>Send Code</button>
+</form>
+
+<form action="api/verify-email.php" method="POST">
+<input name="code" placeholder="Enter Email Code" required>
+<button>Verify</button>
+</form>
+
+</body>
+</html>
